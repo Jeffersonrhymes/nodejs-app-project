@@ -31,7 +31,6 @@ jobs:
       with:
         image: bharath0812/node
         tags: 1.0
-        registry: registry-url.io
-        dockerfile: Dockerfile.ci
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
