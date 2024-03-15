@@ -30,6 +30,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: bharath0812/node
+        tags: 1.0
         registry: registry-url.io
         dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
